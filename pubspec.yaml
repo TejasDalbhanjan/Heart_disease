@@ -33,6 +33,9 @@ dependencies:
   cloud_firestore: ^0.16.0
   shared_preferences: ^0.5.2
   firebase_core: ^0.7.0
+  font_awesome_flutter: ^8.10.0
+  google_fonts: ^1.1.1
+
 
 
 dev_dependencies:

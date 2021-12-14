@@ -1,3 +1,4 @@
+import 'package:Heart_Disease/Forms/feedback_form.dart';
 import 'package:Heart_Disease/Forms/registration.dart';
 import 'package:flutter/material.dart';
 //import 'Asa.dart';
@@ -41,7 +42,7 @@ class _SplashSState extends State<SplashS> {
           () => Navigator.of(context).pushReplacement(
                 MaterialPageRoute(
                   builder: (context) =>
-                      (finalcredential == null ? Registraion() : Home()),
+                      (finalcredential == null ? CreateNewAccount() : Home()),
                 ),
               ));
     });
